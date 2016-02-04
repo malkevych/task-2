@@ -1,0 +1,29 @@
+<html><head><title>adtena</title>
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="expires" content="-1">
+<meta charset="utf-8">
+</head>
+<body style="background: #003e71">
+
+
+<noscript>
+<center><b>JavaScript required. Enable JavaScript to continue.</b></center>
+</noscript>
+
+<center><h1 style="color: white">triolan.mobi loading...</h1><br>
+<form name="redirect" action="http://wifi.adtena.com/" method="get">
+<input type="hidden" name="mac" value="AC:BC:32:B1:C5:01">
+<input type="hidden" name="sid" value="00b000b000b000b6">
+<input type="hidden" name="wifibuilder" value="triolan">
+<input type="hidden" name="device" value="mikrotik">
+<input type="hidden" name="link-orig" value="http://central.maven.org/maven2/org/springframework/spring-instrument-tomcat/4.2.4.RELEASE/spring-instrument-tomcat-4.2.4.RELEASE.jar">
+<input type="hidden" name="chap-id" value="\372">
+<input type="hidden" name="chap-challenge" value="\015\163\350\266\147\371\370\170\346\003\314\066\374\146\176\377">
+<input type="hidden" name="link-login-only" value="http://knte.triolan.mobi/login">
+<input type="submit" value="continue">
+</form>
+<script language="JavaScript">
+document.redirect.submit();
+</script></center>
+</body>
+</html>
