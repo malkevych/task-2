@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="duke" class="com.javaee.malkevych.Juggler">
+        <constructor-arg value="15"></constructor-arg>
+    </bean>
+
+    <bean id="repSonet" class="com.javaee.malkevych.RepPoem"></bean>
+
+    <bean id="repDuke" class="com.javaee.malkevych.PoeticJuggler" p:tet="22" >
+        <constructor-arg value="20"></constructor-arg>
+        <constructor-arg ref="repSonet"></constructor-arg>
+        <property name="collectionDi">
+            <list>
+                <value>Alibaba</value>
+                <value>Alobaba 2</value>
+            </list>
+        </property>
+
+    </bean>
+</beans>
